@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin } from 'lucide-react';
+import Link from "next/link";
+import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,22 +28,34 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/" className="hover:text-white/80 transition-colors">
+                <Link
+                  href="/"
+                  className="hover:text-white/80 transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="hover:text-white/80 transition-colors">
+                <Link
+                  href="#about"
+                  className="hover:text-white/80 transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-white/80 transition-colors">
+                <Link
+                  href="/services"
+                  className="hover:text-white/80 transition-colors"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/products" className="hover:text-white/80 transition-colors">
+                <Link
+                  href="/products"
+                  className="hover:text-white/80 transition-colors"
+                >
                   Products
                 </Link>
               </li>
@@ -62,7 +74,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white/80 transition-colors"
                 >
-                  +254 790 809 501
+                  +254 *** *** ***
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -114,7 +126,10 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-sm text-white/80">
-          <p>&copy; {currentYear} WALBUZ General Supplies Limited. All rights reserved.</p>
+          <p>
+            &copy; {currentYear} WALBUZ General Supplies Limited. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>
