@@ -268,7 +268,7 @@ export default function Home() {
               <Card key={index} className="p-8 border-0 bg-white/10 backdrop-blur hover:bg-white/20 transition-colors">
                 <p className="text-white text-lg italic mb-6">&quot;{testimonial.text}&quot;</p>
                 <div className="flex items-center gap-3">
-                  <div className="text-3xl">{testimonial.image}</div>
+                  {/* <div className="text-3xl">{testimonial.image}</div> */}
                   <div>
                     <p className="font-bold text-white">{testimonial.name}</p>
                     <p className="text-white/70 text-sm">{testimonial.company}</p>
